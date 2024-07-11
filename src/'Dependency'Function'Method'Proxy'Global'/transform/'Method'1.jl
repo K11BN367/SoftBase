@@ -50,7 +50,6 @@ function transform(
 
     local Function_Dispatch_Flag, Function_Dispatch_Expression
     if Access_Flag == true
-        plso("Access_Tuple[2].value: ", Access_Tuple[2].value)
         Function_Dispatch_Flag, Function_Dispatch_Expression = Function_Dispatch(Access_Tuple[2].value)
     end
     if Access_Flag == true && Function_Dispatch_Flag

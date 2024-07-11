@@ -1,5 +1,4 @@
 #'Global'
-const Function_Dictionary = Dict{v__Symbol, v__Expression}()
 function Function_Dispatch(Value::v__Symbol)
     return Function_Dispatch(v__Value{Value})
 end
