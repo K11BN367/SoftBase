@@ -16,7 +16,7 @@ baremodule Test
     InteractiveUtils.@code_native test__()
     =#
 
-    include!(Test, @c__URI(SoftBase.Directory, a__Path("test_Number.jl")))
+    include!(Test, @c__URI(SoftBase.Directory, a__Path("test_Number.jl"), a__Query("")))
     include!(Test, @c__URI(SoftBase.Directory, a__Path("test_Field.jl")))
     include!(Test, @c__URI(SoftBase.Directory, a__Path("test_Tuple.jl")))
     include!(Test, @c__URI(SoftBase.Directory, a__Path("test_URI.jl")))

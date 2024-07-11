@@ -1,9 +1,8 @@
 
 macro c__URI(Value, Tuple...)
     Path_2 = Base.String(__source__.file)
-
-    return quote    
-        Path_1,   Tuple = SoftBase.unpack_arguments(SoftBase.a__Path(""), SoftBase.eval.($Tuple)...)
+    return quote
+        Path_1, Tuple = SoftBase.unpack_arguments(SoftBase.a__Path(""), c__Tuple($(__escape.(Tuple)...))...)
         if $Value == SoftBase.File
             Return = SoftBase.join_path(
                 c__URI(SoftBase.a__Scheme("file"), SoftBase.a__Path($Path_2)),

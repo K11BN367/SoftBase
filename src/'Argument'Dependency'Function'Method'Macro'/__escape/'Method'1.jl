@@ -10,3 +10,6 @@ function __escape(Argument_Tuple::u{a__Transform_Flag, a__Expression}...)
         return Escape_Expression
     end
 end
+function __escape(Value)
+    return __escape(a__Expression(Value))
+end
