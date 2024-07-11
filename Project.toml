@@ -1,0 +1,10 @@
+name = "SoftBase"
+uuid = "af0a1cfc-538f-4bb2-b0da-fbf558d56e16"
+authors = ["1B37 <41506131+1B37@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+TypeUtils = "c3b1956e-8857-4d84-9b79-890df85b1e67"

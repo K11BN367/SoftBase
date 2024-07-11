@@ -1,0 +1,8 @@
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/__access/'Method'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/__annotation/'Method'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/__call/'Method'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/__where/'Method'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/__block/'Method'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/__function/'Method'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/__struct/'Method'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/__escape/'Method'1.jl")))

@@ -1,0 +1,3 @@
+function parameterless end
+export parameterless
+const TypeUtils__parameterless = TypeUtils.parameterless

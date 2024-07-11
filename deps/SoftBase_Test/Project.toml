@@ -1,0 +1,7 @@
+name = "SoftBase_Test"
+uuid = "8d8dafd4-7fea-41eb-96d1-cc29c6f08672"
+authors = ["beckmaa <beckmaa@hochschule-trier.de>"]
+version = "0.1.0"
+
+[deps]
+SoftBase = "af0a1cfc-538f-4bb2-b0da-fbf558d56e16"

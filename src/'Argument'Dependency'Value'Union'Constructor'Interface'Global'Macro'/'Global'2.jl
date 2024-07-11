@@ -1,0 +1,1 @@
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Colon/'Global'2.jl")))

@@ -1,0 +1,1 @@
+const IO_Std_Out = v__IO_Std_Out()

@@ -1,0 +1,6 @@
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/parameterless/'Dependency'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/parameterless/'Function'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/pack_arguments/'Function'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/unpack_arguments/'Function'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/pack_traits/'Function'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/unpack_traits/'Function'1.jl")))

@@ -1,0 +1,2 @@
+function __annotation end
+export __annotation

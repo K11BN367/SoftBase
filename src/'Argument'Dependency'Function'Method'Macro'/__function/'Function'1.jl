@@ -1,0 +1,2 @@
+function __function end
+export __function

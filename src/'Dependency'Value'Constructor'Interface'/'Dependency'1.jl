@@ -1,0 +1,8 @@
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Symbol/'Dependency'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Expression/'Dependency'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Data_Type/'Dependency'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Fragment/'Dependency'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Module/'Dependency'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Type/'Dependency'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Variable_Argument/'Dependency'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Wrap/'Dependency'1.jl")))

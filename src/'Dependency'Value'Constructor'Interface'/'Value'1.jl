@@ -1,0 +1,8 @@
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Symbol/'Value'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Expression/'Value'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Data_Type/'Value'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Fragment/'Value'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Module/'Value'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Type/'Value'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Variable_Argument/'Value'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Wrap/'Value'1.jl")))
