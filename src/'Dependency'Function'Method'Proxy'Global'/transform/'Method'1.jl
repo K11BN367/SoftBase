@@ -48,8 +48,13 @@ function transform(
     
     Access_Flag, Access_Tuple = is_access_expression(Expression.args[1])
 
-    if Access_Flag == true && haskey(Function_Dictionary, Access_Tuple[2].value)
-        Expression = __call(a__Call_Symbol(Function_Dictionary[Access_Tuple[2].value]), a__Call_Tuple(Expression.args[2:end]))
+    local Function_Dispatch_Flag, Function_Dispatch_Expression
+    if Access_Flag == true
+        plso("Access_Tuple[2].value: ", Access_Tuple[2].value)
+        Function_Dispatch_Flag, Function_Dispatch_Expression = Function_Dispatch(Access_Tuple[2].value)
+    end
+    if Access_Flag == true && Function_Dispatch_Flag
+        Expression = __call(a__Call_Symbol(Function_Dispatch_Expression), a__Call_Tuple(Expression.args[2:end]))
         if Where_Flag == true
             Expression = __where(
                 a__Expression(Expression),
