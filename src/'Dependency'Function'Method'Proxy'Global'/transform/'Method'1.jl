@@ -48,8 +48,8 @@ function transform(
     
     Access_Flag, Access_Tuple = is_access_expression(Expression.args[1])
 
-    if Access_Flag == true && haskey(Method_Dictionary, Access_Tuple[2].value)
-        Expression = __call(a__Call_Symbol(Method_Dictionary[Access_Tuple[2].value]), a__Call_Tuple(Expression.args[2:end]))
+    if Access_Flag == true && haskey(Function_Dictionary, Access_Tuple[2].value)
+        Expression = __call(a__Call_Symbol(Function_Dictionary[Access_Tuple[2].value]), a__Call_Tuple(Expression.args[2:end]))
         if Where_Flag == true
             Expression = __where(
                 a__Expression(Expression),
