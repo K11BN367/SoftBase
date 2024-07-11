@@ -1,2 +1,2 @@
-const v__Val = Base.Val
-export v__Val
+const v__Value = Base.Val
+export v__Value
