@@ -1,6 +1,6 @@
 
 macro c__URI(Value, Tuple...)
-    Path_1,   Tuple = SoftBase.unpack_arguments(a__Path(""), eval.(Tuple)...)
+    Path_1,   Tuple = SoftBase.unpack_arguments(a__Path(""), SoftBase.eval.(Tuple)...)
     Path_2 = Base.String(__source__.file)
     return quote
         
