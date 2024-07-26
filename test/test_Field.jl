@@ -8,5 +8,7 @@ function test_Field(IO)
     Array = Type([1, 2, 3])
     print_line(IO, v__(Type([1, 2, 3])), " ", Type([1, 2, 3]))
     print_line(IO, size(Array))
+    Array = c__Array{v__Int64, 2}(a__Size(3, 3))
+    print_line(IO, size(Array), " ", Array)
     print_line(IO)
 end

@@ -84,6 +84,7 @@ Base.include(SoftBase, Base.string(@__DIR__, Base.String("/URI/'Constructor'Inte
 Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Dynamic_String/'Constructor'Interface'1.jl")))
 Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Tuple/'Constructor'Interface'1.jl")))
 Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Colon/'Constructor'Interface'1.jl")))
+Base.include(SoftBase, Base.string(@__DIR__, Base.String("/Array/'Constructor'1.jl")))
 
 
 
