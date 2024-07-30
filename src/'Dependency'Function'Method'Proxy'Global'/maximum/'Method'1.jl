@@ -1,5 +1,5 @@
 function Base__maximum(
-    ::t, Value
+    ::t, Value::u{u__Array, v__Tuple}
     )
     return Base__maximum(Value)
 end
