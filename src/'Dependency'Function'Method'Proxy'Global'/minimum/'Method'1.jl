@@ -1,5 +1,5 @@
 function Base__minimum(
-    ::t, Value::u__Array
+    ::t, Value
     )
     return Base__minimum(Value)
 end

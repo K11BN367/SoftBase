@@ -12,5 +12,6 @@ function test_Tuple(IO)
     Value = c__Tuple(1, 2, 3)
     print_line(IO, v__(Value), " ", Value)
     print_line(IO, c__(v__(Value)))
+    print_line(IO, maximum.(c__Tuple(c__Tuple(1, 2, 3), c__Tuple(4, 5, 6))))
     print_line(IO)
 end
