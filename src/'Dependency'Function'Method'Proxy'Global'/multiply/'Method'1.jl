@@ -14,3 +14,13 @@ function Base__multiply(
     )
     return Base__multiply(Value_1, Value_2)
 end
+function Base__multiply(
+    Value_1, ::t,
+    )
+    return Base__multiply(Value_1)
+end
+function Base__multiply(
+    ::t, Value_1,
+    )
+    return Base__multiply(Value_1)
+end

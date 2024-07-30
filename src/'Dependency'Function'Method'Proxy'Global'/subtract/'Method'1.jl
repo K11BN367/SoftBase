@@ -19,3 +19,8 @@ function Base__subtract(
     )
     return Base__subtract(Value)
 end
+function Base__subtract(
+    Value, ::t
+    )
+    return Base__subtract(Value)
+end
